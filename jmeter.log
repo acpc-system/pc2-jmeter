@@ -1,0 +1,140 @@
+2023-05-05 12:42:17,527 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-05-05 12:42:17,581 INFO o.a.j.JMeter: Loading user properties from: /home/compiler/wti-loadtest/apache-jmeter-5.5/bin/user.properties
+2023-05-05 12:42:17,582 INFO o.a.j.JMeter: Loading system properties from: /home/compiler/wti-loadtest/apache-jmeter-5.5/bin/system.properties
+2023-05-05 12:42:17,598 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-05-05 12:42:17,599 INFO o.a.j.JMeter: Version 5.5
+2023-05-05 12:42:17,599 INFO o.a.j.JMeter: java.version=19.0.2
+2023-05-05 12:42:17,599 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-05-05 12:42:17,599 INFO o.a.j.JMeter: os.name=Linux
+2023-05-05 12:42:17,599 INFO o.a.j.JMeter: os.arch=amd64
+2023-05-05 12:42:17,600 INFO o.a.j.JMeter: os.version=5.15.0-71-generic
+2023-05-05 12:42:17,600 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-05-05 12:42:17,600 INFO o.a.j.JMeter: java.awt.headless=null
+2023-05-05 12:42:17,600 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-05-05 12:42:17,601 INFO o.a.j.JMeter: Available Processors =4
+2023-05-05 12:42:17,634 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-05-05 12:42:17,635 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-05-05 12:42:17,635 INFO o.a.j.JMeter: JMeterHome=/home/compiler/wti-loadtest/apache-jmeter-5.5
+2023-05-05 12:42:17,635 INFO o.a.j.JMeter: user.dir  =/home/compiler/wti-loadtest
+2023-05-05 12:42:17,636 INFO o.a.j.JMeter: PWD       =/home/compiler/wti-loadtest
+2023-05-05 12:42:17,636 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: compiler FullName: compiler
+2023-05-05 12:42:17,665 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-05-05 12:42:18,158 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-05-05 12:42:39,770 INFO o.a.j.s.FileServer: Default base='/home/compiler/wti-loadtest'
+2023-05-05 12:42:39,781 INFO o.a.j.g.a.Load: Loading file: /home/compiler/wti-loadtest/pc2-test-2023.jmx
+2023-05-05 12:42:39,782 INFO o.a.j.s.FileServer: Set new base='/home/compiler/wti-loadtest'
+2023-05-05 12:42:40,318 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-05-05 12:42:40,395 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-05-05 12:42:40,402 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-05-05 12:42:40,406 INFO o.a.j.s.SaveService: Loading file: /home/compiler/wti-loadtest/pc2-test-2023.jmx
+2023-05-05 12:42:40,451 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-05-05 12:42:40,465 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-05 12:42:40,466 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-05 12:42:40,466 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-05 12:42:40,466 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-05-05 12:42:40,467 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-05-05 12:42:40,467 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-05-05 12:42:40,939 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2023-05-05 12:42:40,940 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/compiler/wti-loadtest/apache-jmeter-5.5/bin/proxyserver.jks
+2023-05-05 12:42:41,779 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-05-05 12:42:41,779 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-05-05 12:42:41,780 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-05-05 12:42:41,780 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-05-05 12:42:42,066 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-05-05 12:42:42,449 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-05-05 12:42:42,734 INFO o.a.j.s.FileServer: Set new base='/home/compiler/wti-loadtest'
+2023-05-05 12:42:49,361 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-05 12:42:49,363 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-05 12:42:49,364 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-05 12:42:49,367 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-05-05 12:42:49,368 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-05-05 12:42:49,509 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-05 12:42:49,614 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-05 12:42:49,615 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2023-05-05 12:42:49,615 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-05 12:42:49,616 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2023-05-05 12:42:49,644 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-05 12:42:49,653 INFO o.a.j.s.FileServer: Stored: accounts.csv
+2023-05-05 12:42:49,694 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-05 12:42:49,695 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-05 12:42:49,720 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = compiler
+2023-05-05 12:42:49,749 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-05-05 12:42:49,844 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-05 12:42:50,040 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-05-05 12:42:50,242 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-05-05 12:42:50,444 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-05-05 12:42:56,643 INFO o.a.j.g.a.Start: Stopping test
+2023-05-05 12:42:56,661 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2023-05-05 12:42:56,662 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: acpc-28
+2023-05-05 12:42:56,672 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-05 12:42:56,681 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2023-05-05 12:42:56,681 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: acpc-28
+2023-05-05 12:42:56,682 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2023-05-05 12:42:56,682 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: acpc-28
+2023-05-05 12:42:56,683 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-05 12:42:56,685 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2023-05-05 12:42:56,685 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: acpc-28
+2023-05-05 12:42:56,685 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2023-05-05 12:42:56,686 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: acpc-28
+2023-05-05 12:42:56,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-05-05 12:42:56,689 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-05-05 12:42:56,690 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-05-05 12:42:56,693 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-05 12:42:56,694 INFO o.a.j.s.FileServer: Close: accounts.csv
+2023-05-05 12:42:56,697 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-05 12:43:15,764 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-05 12:43:15,765 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-05 12:43:15,783 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-05 12:43:15,875 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-05 12:43:15,875 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2023-05-05 12:43:15,876 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-05 12:43:15,876 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2023-05-05 12:43:15,890 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-05 12:43:15,897 INFO o.a.j.s.FileServer: Stored: accounts.csv
+2023-05-05 12:43:15,912 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-05 12:43:15,912 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-05 12:43:16,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-05 12:43:16,291 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-05-05 12:43:16,486 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-05-05 12:43:16,683 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-05-05 12:43:18,517 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-05-05 12:43:18,517 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-05 12:43:18,519 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-05-05 12:43:18,519 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-05 12:43:18,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-05-05 12:43:18,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-05-05 12:43:18,859 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-05-05 12:43:18,860 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-05-05 12:43:19,062 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-05-05 12:43:19,062 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-05-05 12:43:19,063 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-05 12:43:19,063 INFO o.a.j.s.FileServer: Close: accounts.csv
+2023-05-05 12:43:19,064 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-05-05 12:44:48,852 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-05-05 12:44:48,853 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-05-05 12:44:48,866 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-05-05 12:44:48,964 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-05-05 12:44:48,964 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2023-05-05 12:44:48,964 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-05-05 12:44:48,964 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2023-05-05 12:44:48,978 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-05-05 12:44:48,979 INFO o.a.j.s.FileServer: Stored: accounts.csv
+2023-05-05 12:44:49,007 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-05-05 12:44:49,008 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-05-05 12:44:49,191 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-05-05 12:44:49,385 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-05-05 12:44:49,583 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-05-05 12:44:49,773 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-05-05 12:44:51,385 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-05-05 12:44:51,386 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-05-05 12:44:51,496 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2023-05-05 12:44:51,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2023-05-05 12:44:51,725 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2023-05-05 12:44:51,726 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2023-05-05 12:44:51,858 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2023-05-05 12:44:51,858 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2023-05-05 12:44:52,024 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2023-05-05 12:44:52,025 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2023-05-05 12:44:52,025 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-05-05 12:44:52,025 INFO o.a.j.s.FileServer: Close: accounts.csv
+2023-05-05 12:44:52,026 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

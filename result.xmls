@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1683219101652,246,Get-LoginPage,200,OK,Thread Group 1-1,text,true,,1281,357,1,1,http://kickoff2023.acpc.global/,246,0,165
+1683219102902,63,Get-AppConfig,200,OK,Thread Group 1-1,text,true,,756,338,1,1,http://kickoff2023.acpc.global/assets/appconfig.json,63,0,0
+1683219100529,309,acpc,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,2037,695,1,1,null,309,2129,165
+1683219103970,578,LoginPage,200,OK,Thread Group 1-1,text,true,,735,464,1,1,http://kickoff2023.acpc.global/api/teams/login,578,0,0
+1683219105608,64,Get-RunState,401,Unauthorized,Thread Group 1-1,text,false,,642,385,1,1,http://kickoff2023.acpc.global/api/contest/isRunning,64,0,0
+1683219106676,67,Get-Runs,200,OK,Thread Group 1-1,text,true,,727,377,1,1,http://kickoff2023.acpc.global/api/teams/run,67,0,0
+1683219107745,63,Get-Languages,401,Unauthorized,Thread Group 1-1,text,false,,642,385,1,1,http://kickoff2023.acpc.global/api/contest/languages,63,0,0
+1683219108810,65,Get-Judgments,200,OK,Thread Group 1-1,text,true,,748,386,1,1,http://kickoff2023.acpc.global/api/contest/judgements,65,0,0
+1683219109877,64,Get-Problems,401,Unauthorized,Thread Group 1-1,text,false,,642,384,1,1,http://kickoff2023.acpc.global/api/contest/problems,64,0,0
+1683219110943,69,Get-Problems,200,OK,Thread Group 1-1,text,true,,638,384,1,1,http://kickoff2023.acpc.global/api/contest/problems,68,0,0
+1683219112705,64,Get-Languages,401,Unauthorized,Thread Group 1-1,text,false,,642,385,1,1,http://kickoff2023.acpc.global/api/contest/languages,64,0,0
+1683219102968,1034,acpc,,"Number of samples in transaction : 8, number of failing samples : 4",Thread Group 1-1,,false,,5416,3150,1,1,null,1033,8769,0
+1683219113773,68,Submit-solution,400,Bad Request,Thread Group 1-1,text,false,,1080,943,1,1,http://kickoff2023.acpc.global/api/teams/run,68,0,0
+1683219114843,67,Get-Run,401,Unauthorized,Thread Group 1-1,text,false,,642,377,1,1,http://kickoff2023.acpc.global/api/teams/run,67,0,0
+1683219112771,135,acpc,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,,1722,1320,1,1,null,135,2005,0
+1683219115914,65,Get-Scoreboard,401,Unauthorized,Thread Group 1-1,text,false,,658,386,1,1,http://kickoff2023.acpc.global/api/contest/scoreboard,65,0,0
+1683219116981,66,Go-Logout,415,Unsupported Media Type,Thread Group 1-1,,false,,654,506,1,1,http://kickoff2023.acpc.global/api/teams/logout,66,0,0
+1683219114911,131,acpc,,"Number of samples in transaction : 2, number of failing samples : 2",Thread Group 1-1,,false,,1312,892,1,1,null,131,2005,0

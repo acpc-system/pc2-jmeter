@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="Broken pipe&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2187" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="Broken pipe&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2187" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Broken pipe&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2369" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Remote host terminated the handshake&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1471" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1346" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1346" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="www.google.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1346" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT www.google.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="20" it="0" lt="20" ct="2" ts="1683280135995" s="true" lb="acpc-10" rc="200" rm="OK" tn="" dt="text" de="" by="1136" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:56 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/vnd.sun.wadl+xml
+Allow: POST,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:48:56 EET
+Content-Length: 677
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: content-type
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;teams/login&quot;&gt;
+            &lt;method id=&quot;login&quot; name=&quot;POST&quot;&gt;
+                &lt;request&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/login</java.net.URL>
+</httpSample>
+<httpSample t="546" it="0" lt="545" ct="4" ts="1683280136068" s="true" lb="acpc-11" rc="200" rm="OK" tn="" dt="text" de="" by="313" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:56 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 68
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+Content-Length: 39
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;teamName&quot;:&quot;team1&quot;,&quot;teamId&quot;:&quot;a2ef08d7-144d-4bb4-815f-5577198f22fa&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;teamName&quot;:&quot;team1&quot;,&quot;password&quot;:&quot;team1&quot;}</queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/login</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="9" ts="1683280136670" s="true" lb="acpc-12" rc="200" rm="OK" tn="" dt="text" de="" by="1197" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:56 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:48:56 EET
+Content-Length: 739
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;contest/isRunning&quot;&gt;
+            &lt;method id=&quot;isRunning&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/isRunning</java.net.URL>
+</httpSample>
+<httpSample t="42" it="0" lt="38" ct="4" ts="1683280136808" s="true" lb="acpc-13" rc="200" rm="OK" tn="" dt="text" de="" by="248" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:56 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 4
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">true</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/isRunning</java.net.URL>
+</httpSample>
+<httpSample t="31" it="0" lt="31" ct="2" ts="1683280136919" s="true" lb="acpc-14" rc="200" rm="OK" tn="" dt="text" de="" by="1629" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:56 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,POST,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:48:56 EET
+Content-Length: 1165
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;teams/run&quot;&gt;
+            &lt;method id=&quot;submitRun&quot; name=&quot;POST&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+            &lt;method id=&quot;getTeamRuns&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/run</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="53" ct="2" ts="1683280136942" s="true" lb="acpc-15" rc="200" rm="OK" tn="" dt="text" de="" by="1197" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:56 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:48:56 EET
+Content-Length: 739
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;contest/languages&quot;&gt;
+            &lt;method id=&quot;languages&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/languages</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="28" ct="11" ts="1683280137001" s="true" lb="acpc-16" rc="200" rm="OK" tn="" dt="text" de="" by="1072" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:57 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 826
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:81,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-2&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:89,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-5&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:88,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-4&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:83,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-3&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:16,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-1&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/run</java.net.URL>
+</httpSample>
+<httpSample t="28" it="0" lt="28" ct="1" ts="1683280137143" s="true" lb="acpc-18" rc="200" rm="OK" tn="" dt="text" de="" by="276" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:57 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 31
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;id&quot;:&quot;GNU C&quot;,&quot;name&quot;:&quot;GNU C&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/languages</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="44" ct="8" ts="1683280137143" s="true" lb="acpc-17" rc="200" rm="OK" tn="" dt="text" de="" by="1199" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:57 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:48:57 EET
+Content-Length: 741
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;contest/judgements&quot;&gt;
+            &lt;method id=&quot;judgements&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/judgements</java.net.URL>
+</httpSample>
+<httpSample t="13" it="0" lt="13" ct="4" ts="1683280137248" s="true" lb="acpc-19" rc="200" rm="OK" tn="" dt="text" de="" by="427" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:57 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 181
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[&quot;Yes&quot;,&quot;No - Compilation Error&quot;,&quot;No - Run-time Error&quot;,&quot;No - Time Limit Exceeded&quot;,&quot;No - Wrong Answer&quot;,&quot;No - Excessive Output&quot;,&quot;No - Output Format Error&quot;,&quot;No - Other - Contact Staff&quot;]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/judgements</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="4" ts="1683280137328" s="true" lb="acpc-20" rc="200" rm="OK" tn="" dt="text" de="" by="1195" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:57 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:48:57 EET
+Content-Length: 737
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;contest/problems&quot;&gt;
+            &lt;method id=&quot;problems&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/problems</java.net.URL>
+</httpSample>
+<httpSample t="23" it="0" lt="20" ct="9" ts="1683280137389" s="true" lb="acpc-21" rc="200" rm="OK" tn="" dt="text" de="" by="284" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:48:57 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 39
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;name&quot;:&quot;sumofint&quot;,&quot;shortName&quot;:&quot;soi&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/problems</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="192.168.1.12:80" rc="" rm="Unsupported or unrecognized SSL message&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1153" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT 192.168.1.12:80 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="15" it="0" lt="14" ct="3" ts="1683280143018" s="true" lb="acpc-22" rc="200" rm="OK" tn="" dt="text" de="" by="284" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:03 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 39
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;name&quot;:&quot;sumofint&quot;,&quot;shortName&quot;:&quot;soi&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/problems</java.net.URL>
+</httpSample>
+<httpSample t="9" it="0" lt="8" ct="1" ts="1683280143025" s="true" lb="acpc-23" rc="200" rm="OK" tn="" dt="text" de="" by="276" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:03 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 31
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;id&quot;:&quot;GNU C&quot;,&quot;name&quot;:&quot;GNU C&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/languages</java.net.URL>
+</httpSample>
+<httpSample t="17" it="0" lt="16" ct="1" ts="1683280152553" s="true" lb="acpc-24" rc="200" rm="OK" tn="" dt="text" de="" by="1642" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:12 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: content-type,team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,POST,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:49:12 EET
+Content-Length: 1165
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: content-type,team_id
+Access-Control-Request-Method: POST
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;teams/run&quot;&gt;
+            &lt;method id=&quot;submitRun&quot; name=&quot;POST&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+            &lt;method id=&quot;getTeamRuns&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/run</java.net.URL>
+</httpSample>
+<httpSample t="53" it="0" lt="53" ct="1" ts="1683280152585" s="true" lb="acpc-25" rc="200" rm="OK" tn="" dt="text" de="" by="244" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:12 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 0
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Content-Type: application/json
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+Content-Length: 487
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;mainFile&quot;:{&quot;byteData&quot;:&quot;I2luY2x1ZGUgPHN0ZGlvLmg+CmludCBtYWluKCkgewoJRklMRSAqZjsKCWludCBhLGIsYzsKCWY9Zm9wZW4oInN1bW9maW50LmluIiwiciIpOwoJZnNjYW5mKGYsIiVkIiwmYSk7Cglmc2NhbmYoZiwiJWQiLCZiKTsKCWM9YStiOwoJcHJpbnRmKCIlZCIsYyk7CglmY2xvc2UoZik7CglyZXR1cm4gMDsKfQo=&quot;,&quot;fileName&quot;:&quot;sumofint.c&quot;},&quot;extraFiles&quot;:[],&quot;testFile&quot;:null,&quot;additionalTestFiles&quot;:[],&quot;probName&quot;:&quot;sumofint&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;isTest&quot;:false,&quot;osName&quot;:&quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0&quot;}</queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/run</java.net.URL>
+</httpSample>
+<httpSample t="16" it="0" lt="16" ct="2" ts="1683280152701" s="true" lb="acpc-26" rc="200" rm="OK" tn="" dt="text" de="" by="1072" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:12 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 826
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:81,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-2&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:89,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-5&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:88,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-4&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:83,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-3&quot;},{&quot;teamID&quot;:&quot;team1&quot;,&quot;language&quot;:&quot;GNU C&quot;,&quot;problem&quot;:&quot;sumofint&quot;,&quot;judgement&quot;:&quot;Yes&quot;,&quot;result&quot;:[],&quot;time&quot;:16,&quot;isTestRun&quot;:false,&quot;isPreliminary&quot;:false,&quot;isFinal&quot;:true,&quot;id&quot;:&quot;1-1&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/run</java.net.URL>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="2" ts="1683280156421" s="true" lb="acpc-27" rc="200" rm="OK" tn="" dt="text" de="" by="1201" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:16 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:49:16 EET
+Content-Length: 743
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;contest/scoreboard&quot;&gt;
+            &lt;method id=&quot;getStandings&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/scoreboard</java.net.URL>
+</httpSample>
+<httpSample t="351" it="0" lt="350" ct="1" ts="1683280156461" s="true" lb="acpc-28" rc="200" rm="OK" tn="" dt="text" de="" by="3071" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:16 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 2824
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;contestStandings&quot;:{&quot;teamStanding&quot;:[{&quot;teamName&quot;:&quot;team1&quot;,&quot;teamExternalId&quot;:1001,&quot;totalAttempts&quot;:2,&quot;index&quot;:0,&quot;solved&quot;:1,&quot;problemsAttempted&quot;:1,&quot;lastSolved&quot;:16,&quot;points&quot;:16,&quot;teamAlias&quot;:&quot;team1 (not aliasesd)&quot;,&quot;overallRank&quot;:1,&quot;problemSummaryInfo&quot;:{&quot;isSolved&quot;:true,&quot;index&quot;:1,&quot;solutionTime&quot;:16,&quot;isPending&quot;:true,&quot;problemId&quot;:&quot;sumofint-4124160974268685825&quot;,&quot;attempts&quot;:2,&quot;points&quot;:16},&quot;firstSolved&quot;:16,&quot;shortSchoolName&quot;:&quot;&quot;,&quot;teamId&quot;:1,&quot;teamKey&quot;:&quot;1TEAM1&quot;,&quot;rank&quot;:1,&quot;teamSiteId&quot;:1},{&quot;teamName&quot;:&quot;team2&quot;,&quot;teamExternalId&quot;:1002,&quot;totalAttempts&quot;:1,&quot;index&quot;:1,&quot;solved&quot;:1,&quot;problemsAttempted&quot;:1,&quot;lastSolved&quot;:89,&quot;points&quot;:89,&quot;teamAlias&quot;:&quot;team2 (not aliasesd)&quot;,&quot;overallRank&quot;:2,&quot;problemSummaryInfo&quot;:{&quot;isSolved&quot;:true,&quot;index&quot;:1,&quot;solutionTime&quot;:89,&quot;isPending&quot;:false,&quot;problemId&quot;:&quot;sumofint-4124160974268685825&quot;,&quot;attempts&quot;:1,&quot;points&quot;:89},&quot;firstSolved&quot;:89,&quot;shortSchoolName&quot;:&quot;&quot;,&quot;teamId&quot;:2,&quot;teamKey&quot;:&quot;1TEAM2&quot;,&quot;rank&quot;:2,&quot;teamSiteId&quot;:1},{&quot;teamName&quot;:&quot;team3&quot;,&quot;teamExternalId&quot;:1003,&quot;totalAttempts&quot;:1,&quot;index&quot;:2,&quot;solved&quot;:1,&quot;problemsAttempted&quot;:1,&quot;lastSolved&quot;:89,&quot;points&quot;:89,&quot;teamAlias&quot;:&quot;team3 (not aliasesd)&quot;,&quot;overallRank&quot;:2,&quot;problemSummaryInfo&quot;:{&quot;isSolved&quot;:true,&quot;index&quot;:1,&quot;solutionTime&quot;:89,&quot;isPending&quot;:false,&quot;problemId&quot;:&quot;sumofint-4124160974268685825&quot;,&quot;attempts&quot;:1,&quot;points&quot;:89},&quot;firstSolved&quot;:89,&quot;shortSchoolName&quot;:&quot;&quot;,&quot;teamId&quot;:3,&quot;teamKey&quot;:&quot;1TEAM3&quot;,&quot;rank&quot;:2,&quot;teamSiteId&quot;:1},{&quot;teamName&quot;:&quot;team4&quot;,&quot;teamExternalId&quot;:1004,&quot;totalAttempts&quot;:1,&quot;index&quot;:3,&quot;solved&quot;:1,&quot;problemsAttempted&quot;:1,&quot;lastSolved&quot;:89,&quot;points&quot;:89,&quot;teamAlias&quot;:&quot;team4 (not aliasesd)&quot;,&quot;overallRank&quot;:2,&quot;problemSummaryInfo&quot;:{&quot;isSolved&quot;:true,&quot;index&quot;:1,&quot;solutionTime&quot;:89,&quot;isPending&quot;:false,&quot;problemId&quot;:&quot;sumofint-4124160974268685825&quot;,&quot;attempts&quot;:1,&quot;points&quot;:89},&quot;firstSolved&quot;:89,&quot;shortSchoolName&quot;:&quot;&quot;,&quot;teamId&quot;:4,&quot;teamKey&quot;:&quot;1TEAM4&quot;,&quot;rank&quot;:2,&quot;teamSiteId&quot;:1},{&quot;teamName&quot;:&quot;team5&quot;,&quot;teamExternalId&quot;:1005,&quot;totalAttempts&quot;:1,&quot;index&quot;:4,&quot;solved&quot;:1,&quot;problemsAttempted&quot;:1,&quot;lastSolved&quot;:89,&quot;points&quot;:89,&quot;teamAlias&quot;:&quot;team5 (not aliasesd)&quot;,&quot;overallRank&quot;:2,&quot;problemSummaryInfo&quot;:{&quot;isSolved&quot;:true,&quot;index&quot;:1,&quot;solutionTime&quot;:89,&quot;isPending&quot;:false,&quot;problemId&quot;:&quot;sumofint-4124160974268685825&quot;,&quot;attempts&quot;:1,&quot;points&quot;:89},&quot;firstSolved&quot;:89,&quot;shortSchoolName&quot;:&quot;&quot;,&quot;teamId&quot;:5,&quot;teamKey&quot;:&quot;1TEAM5&quot;,&quot;rank&quot;:2,&quot;teamSiteId&quot;:1}],&quot;standingsHeader&quot;:{&quot;siteCount&quot;:1,&quot;problemCount&quot;:1,&quot;totalAttempts&quot;:6,&quot;currentDate&quot;:&quot;Fri May 05 11:49:16 EET 2023&quot;,&quot;medianProblemsSolved&quot;:1,&quot;groupList&quot;:{},&quot;problemsAttempted&quot;:1,&quot;systemURL&quot;:&quot;http://pc2.ecs.csus.edu/&quot;,&quot;title&quot;:&quot;Programming Contest&quot;,&quot;systemVersion&quot;:&quot;9 build &quot;,&quot;colorList&quot;:{},&quot;generatorId&quot;:&quot;$Id$&quot;,&quot;scoreboardMessage&quot;:&quot;Scoreboard will be frozen with 1 hour remaining in the contest; all submissions after that will be shown as &apos;Pending&apos;&quot;,&quot;problem&quot;:{&quot;lastSolutionTime&quot;:89,&quot;bestSolutionTime&quot;:16,&quot;id&quot;:1,&quot;title&quot;:&quot;sumofint&quot;,&quot;numberSolved&quot;:5,&quot;attempts&quot;:6},&quot;groupCount&quot;:1,&quot;systemName&quot;:&quot;CSUS Programming Contest Control System&quot;,&quot;totalSolved&quot;:5}}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/scoreboard</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="4" ts="1683280158434" s="true" lb="acpc-29" rc="200" rm="OK" tn="" dt="text" de="" by="284" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:18 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 39
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;name&quot;:&quot;sumofint&quot;,&quot;shortName&quot;:&quot;soi&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/problems</java.net.URL>
+</httpSample>
+<httpSample t="29" it="0" lt="28" ct="2" ts="1683280158453" s="true" lb="acpc-30" rc="200" rm="OK" tn="" dt="text" de="" by="1207" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:18 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: HEAD,GET,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:49:18 EET
+Content-Length: 749
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: GET
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;contest/clarifications&quot;&gt;
+            &lt;method id=&quot;clarifications&quot; name=&quot;GET&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/clarifications</java.net.URL>
+</httpSample>
+<httpSample t="10" it="0" lt="10" ct="2" ts="1683280158496" s="true" lb="acpc-31" rc="200" rm="OK" tn="" dt="text" de="" by="246" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:18 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Content-Length: 2
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">[]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/contest/clarifications</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="1" ts="1683280162727" s="true" lb="acpc-32" rc="200" rm="OK" tn="" dt="text" de="" by="1190" sc="1" ec="0" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Date: Fri, 05 May 2023 09:49:22 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 1800
+Access-Control-Allow-Methods: GET,POST,HEAD,OPTIONS,DELETE
+Access-Control-Allow-Headers: team_id
+Content-Type: application/vnd.sun.wadl+xml
+Allow: DELETE,OPTIONS
+Last-Modified: Fri, 05 May 2023 11:49:22 EET
+Content-Length: 734
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+Access-Control-Request-Headers: team_id
+Access-Control-Request-Method: DELETE
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;application xmlns=&quot;http://wadl.dev.java.net/2009/02&quot;&gt;
+    &lt;doc xmlns:jersey=&quot;http://jersey.java.net/&quot; jersey:generatedBy=&quot;Jersey: 2.28 2019-01-25 15:18:13&quot;/&gt;
+    &lt;grammars/&gt;
+    &lt;resources base=&quot;http://192.168.1.12/api/&quot;&gt;
+        &lt;resource path=&quot;teams/logout&quot;&gt;
+            &lt;method id=&quot;logout&quot; name=&quot;DELETE&quot;&gt;
+                &lt;request&gt;
+                    &lt;param xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; name=&quot;team_id&quot; style=&quot;header&quot; type=&quot;xs:string&quot;/&gt;
+                &lt;/request&gt;
+                &lt;response&gt;
+                    &lt;representation mediaType=&quot;application/json&quot;/&gt;
+                &lt;/response&gt;
+            &lt;/method&gt;
+        &lt;/resource&gt;
+    &lt;/resources&gt;
+&lt;/application&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/logout</java.net.URL>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="3" ts="1683280162776" s="false" lb="acpc-33" rc="415" rm="Unsupported Media Type" tn="" dt="" de="" by="213" sc="1" ec="1" ng="0" na="0" hn="compiler">
+  <responseHeader class="java.lang.String">HTTP/1.1 415 Unsupported Media Type
+Connection: close
+Date: Fri, 05 May 2023 09:49:22 GMT
+Access-Control-Allow-Origin: http://localhost
+Access-Control-Allow-Credentials: true
+Server: Jetty(9.4.z-SNAPSHOT)
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://localhost/
+Accept-Language: en-US,en;q=0.5
+Origin: http://localhost
+Host: 192.168.1.12
+team_id: a2ef08d7-144d-4bb4-815f-5577198f22fa
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/112.0
+Accept: application/json, text/plain, */*
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://192.168.1.12/api/teams/logout</java.net.URL>
+</httpSample>
+
+</testResults>
